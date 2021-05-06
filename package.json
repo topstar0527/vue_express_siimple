@@ -1,0 +1,48 @@
+{
+  "name": "{{name}}",
+  "description": "{{description}}",
+  "version": "0.0.0",
+  "homepage": "https://github.com/{{author}}/{{name}}",
+  "author": "Sean Wilson (https://imsean.me)",
+  "repository": "{{author}}/{{name}}",
+  "bugs": {
+    "url": "https://github.com/{{author}}/{{name}}/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "bin",
+    "app",
+    "public",
+    "server",
+    "LICENSE"
+  ],
+  "bin": {
+    "{{name}}": "bin/www"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "babel-core": "^6.18.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.18.0",
+    "babelify": "^7.3.0",
+    "body-parser": "~1.15.2",
+    "browserify": "^13.1.1",
+    "debug": "~2.2.0",
+    "express": "~4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-sass": "^2.3.2",
+    "morgan": "~1.7.0",
+    "node-sass-middleware": "0.9.8",
+    "serve-favicon": "~2.3.0",
+    "vue": "^2.0.7",
+    "vue-router": "^2.0.3",
+    "vueify": "^9.3.0"
+  }
+}
